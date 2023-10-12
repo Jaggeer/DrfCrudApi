@@ -30,7 +30,7 @@ In "storeapp/models.py" we have 3 models:
 ### "storeapp/views.py"
 In "storeapp/views.py" there is 3 ViewSets: ProductsViewSet, ProductTypeViewSet and PriceViewSet, which inheirit from base class viewsets.ModelViewSet. But in ProductsViewSet we have additional method, which decrease amount of product on specified value taken from parameter.
 
-###"storeapp/serializers.py"
+### "storeapp/serializers.py"
 In "storeapp/serializers.py" we have 3 serializers, which are basic ModelSerializers, which take the specified model and serialize all fields of this model.
 
 ### "storeapp/admin.py"
