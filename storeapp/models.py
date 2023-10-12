@@ -5,7 +5,7 @@ class Product(models.Model):
     title = models.CharField(max_length=255)
     price = models.ForeignKey('Price', on_delete=models.SET_NULL, null=True)
     amount = models.PositiveIntegerField()
-    barcode = models.IntegerField()
+    barcode = models.PositiveIntegerField()
     updateDate = models.DateField(auto_now=True)
     productType = models.ForeignKey('ProductType', on_delete=models.SET_NULL, null=True)
     
