@@ -1,4 +1,4 @@
-##Installation guide
+## Installation guide
 1. Clone repo
 2. Create env. with python ``` -m venv env ```
 3. Activate env with ``` run activate.bat in env/Scripts ```
