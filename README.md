@@ -43,23 +43,23 @@ Also there is "store/urls.py" file, in which was created 3 routers for each mode
 
 I'll describe separately for each model:
 1. Product
-   - GET request to [localhost](127.0.0.1/api/product) to get json list of products
-   - GET request to [localhost](127.0.0.1/api/product/<pk>) to get specific product by id
-   - POST request to [localhost](127.0.0.1/api/product/) with json, which specifies fields of product model (don't need to specify udateTime, it is auto field), to add new product
-   - PATCH request to [localhost](127.0.0.1/api/product/<pk>) with json, to update specific property of product
-   - DELETE request to [localhost](127.0.0.1/api/product/<pk>) to delete product
-   - PATCH request to [localhost](127.0.0.1/api/product/<pk>/updateAmount/<decreaseValue>) to decrease amount of product by decreaseValue
+   - GET request to ``` 127.0.0.1/api/product ``` to get json list of products
+   - GET request to ``` 127.0.0.1/api/product/<pk> ``` to get specific product by id
+   - POST request to ``` 127.0.0.1/api/product/ ``` with json, which specifies fields of product model (don't need to specify udateTime, it is auto field), to add new product
+   - PATCH request to ``` 127.0.0.1/api/product/<pk> ``` with json, to update specific property of product
+   - DELETE request to ``` 127.0.0.1/api/product/<pk> ``` to delete product
+   - PATCH request to ``` 127.0.0.1/api/product/<pk>/updateAmount/<decreaseValue> ``` to decrease amount of product by decreaseValue
 2. Price
-   - GET request to [localhost](127.0.0.1/api/price) to get json list of prices
-   - GET request to [localhost](127.0.0.1/api/price/<pk>) to get specific price by id
-   - POST request to [localhost](127.0.0.1/api/price/) with json, which specifies fields of price model, to add new price
-   - PATCH request to [localhost](127.0.0.1/api/price/<pk>) with json, to update specific property of price
-   - DELETE request to [localhost](127.0.0.1/api/price/<pk>) to delete price
+   - GET request to ``` 127.0.0.1/api/price ``` to get json list of prices
+   - GET request to ``` 127.0.0.1/api/price/<pk> ``` to get specific price by id
+   - POST request to ``` 127.0.0.1/api/price/ ``` with json, which specifies fields of price model, to add new price
+   - PATCH request to ``` 127.0.0.1/api/price/<pk> ``` with json, to update specific property of price
+   - DELETE request to ``` 127.0.0.1/api/price/<pk> ``` to delete price
 3. ProductType
-   - GET request to [localhost](127.0.0.1/api/productType) to get json list of productTypes
-   - GET request to [localhost](127.0.0.1/api/productType/<pk>) to get specific productType by id
-   - POST request to [localhost](127.0.0.1/api/productType/) with json, which specifies fields of productType model, to add new productType
-   - PATCH request to [localhost](127.0.0.1/api/productType/<pk>) with json, to update specific property of productType
-   - DELETE request to [localhost](127.0.0.1/api/productType/<pk>) to delete productType
+   - GET request to ``` 127.0.0.1/api/productType ``` to get json list of productTypes
+   - GET request to ``` 127.0.0.1/api/productType/<pk> ``` to get specific productType by id
+   - POST request to ``` 127.0.0.1/api/productType/ ``` with json, which specifies fields of productType model, to add new productType
+   - PATCH request to ``` 127.0.0.1/api/productType/<pk> ``` with json, to update specific property of productType
+   - DELETE request to ``` 127.0.0.1/api/productType/<pk> ``` to delete productType
 
 You can also perform these actions from admin panel.
